@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1c1420">
+<title>A Little World for You</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<header class="topbar"><a class="brand" href="#home">♡ <span>OUR LITTLE WORLD</span></a><button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+<nav id="nav"><a href="#story">Our Story</a><a href="#feelings">A Letter</a><a href="#memories">Memories</a><a href="#openwhen">Open When</a><a href="#birthday">Birthday</a></nav></header>
+<main>
+<section class="hero" id="home">
+<div class="hero-orb orb1"></div><div class="hero-orb orb2"></div>
+<div class="eyebrow">A WEBSITE MADE WITH LOVE</div>
+<div class="envelope-wrap" id="envelope"><div class="envelope"><div class="env-back"></div><div class="env-letter">A little something<br>for you ♡</div><div class="env-flap"></div><div class="env-front"></div><div class="seal">♡</div></div></div>
+<h1 id="welcomeTitle">A little world,<br><em>made just for you.</em></h1>
+<p class="hero-copy" id="welcomeMessage"></p>
+<a class="pill-link" href="#story">Come inside <span>↓</span></a>
+<div class="scroll-note">SCROLL TO EXPLORE</div>
+</section>
+
+<section class="section story" id="story"><div class="section-head"><span class="eyebrow">CHAPTER ONE</span><h2>Our <em>Story</em></h2><p id="ourStoryIntro"></p></div>
+<div class="timeline" id="timeline"></div></section>
+
+<section class="section letter-section" id="feelings"><div class="letter-card"><span class="eyebrow">A NOTE FROM ME</span><h2 id="unsaidTitle">Things I don't always say</h2><div class="handwritten" id="unsaidLetter"></div><div class="signature">With all my heart, <span>♡</span></div></div></section>
+
+<section class="section memories-section" id="memories"><div class="section-head"><span class="eyebrow">CHAPTER TWO</span><h2>Little <em>Memories</em></h2><p>Some moments deserve their own little frame.</p></div><div class="filters" id="filters"></div><div class="polaroids" id="polaroids"></div></section>
+
+<section class="section apology-section" id="apology"><div class="vintage"><span class="eyebrow">A LITTLE HONESTY</span><h2 id="apologyTitle">For the times I got it wrong</h2><div class="vintage-copy" id="apologyLetter"></div><span class="wax">♡</span></div></section>
+
+<section class="section promises-section" id="promises"><div class="section-head"><span class="eyebrow">CHAPTER THREE</span><h2>Little <em>Promises</em></h2><p>Not grand words. Just things I want to keep doing.</p></div><div class="promise-grid" id="promises"></div></section>
+
+<section class="section open-section" id="openwhen"><div class="section-head"><span class="eyebrow">FOR EVERY KIND OF DAY</span><h2>Open <em>When...</em></h2><p>For the moments when you need a little note from me.</p></div><div class="envelope-grid" id="openWhenGrid"></div></section>
+
+<section class="section future-section" id="future"><div class="future-panel"><span class="eyebrow">CHAPTER FOUR</span><h2 id="futureTitle">All the little <em>tomorrows</em></h2><p id="futureMessage"></p><div class="future-stars">✦　✧　♡　✧　✦</div></div></section>
+
+<section class="birthday" id="birthday"><div class="birthday-glow"></div><span class="eyebrow">THE MOST IMPORTANT DAY</span><h2 id="birthdayTitle">Happy Birthday,<br><em>my favourite person!</em></h2><p id="birthdayMessage"></p><div class="cake" id="cake"><div class="candles"><i></i><i></i><i></i></div><div class="icing"></div><div class="cake-top"></div><div class="cake-body"><span>♡</span><span>♡</span><span>♡</span></div><div class="cake-plate"></div></div><button class="pill-link" id="wishBtn">Make a wish ✨</button><p class="wish-note" id="wishNote"></p><footer>MADE OF MEMORIES, HELD TOGETHER WITH LOVE ♡</footer></section>
+</main>
+<div class="modal" id="modal"><div class="modal-box"><button class="close" id="closeModal">×</button><span class="eyebrow">A LITTLE NOTE FOR YOU</span><h3 id="modalTitle"></h3><p id="modalText"></p></div></div>
+<script src="content.js"></script><script src="script.js"></script>
+</body></html>
